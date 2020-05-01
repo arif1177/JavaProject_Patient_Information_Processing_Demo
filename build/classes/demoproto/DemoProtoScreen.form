@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" pref="415" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Properties>
+        <Property name="tabLayoutPolicy" type="int" value="1"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="panelDBmanipulate">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Main">
+                <Property name="tabTitle" type="java.lang.String" value="Main"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="873" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnSelectPatient" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnGenerateGraphData" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnProcessPatientSummary" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cmbBxDiagCodes" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnDemo" max="32767" attributes="0"/>
+                                  <Component id="btnFilUpAdmissionDetails" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="436" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmbBxDiagCodes" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnDemo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnSelectPatient" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnFilUpAdmissionDetails" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnProcessPatientSummary" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnGenerateGraphData" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="249" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="txtAreaStatus">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Calculate total co-occurrence of MBS codes in the patients. Then write in the excel"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="btnSelectPatient">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Step 1: Select patients"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSelectPatientActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbBxDiagCodes">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="229">
+                    <StringItem index="0" value="E10"/>
+                    <StringItem index="1" value="E100"/>
+                    <StringItem index="2" value="E1001"/>
+                    <StringItem index="3" value="E1002"/>
+                    <StringItem index="4" value="E101"/>
+                    <StringItem index="5" value="E1011"/>
+                    <StringItem index="6" value="E1012"/>
+                    <StringItem index="7" value="E1013"/>
+                    <StringItem index="8" value="E1014"/>
+                    <StringItem index="9" value="E1015"/>
+                    <StringItem index="10" value="E1016"/>
+                    <StringItem index="11" value="E102"/>
+                    <StringItem index="12" value="E1021"/>
+                    <StringItem index="13" value="E1022"/>
+                    <StringItem index="14" value="E1029"/>
+                    <StringItem index="15" value="E103"/>
+                    <StringItem index="16" value="E1031"/>
+                    <StringItem index="17" value="E1032"/>
+                    <StringItem index="18" value="E1033"/>
+                    <StringItem index="19" value="E1034"/>
+                    <StringItem index="20" value="E1035"/>
+                    <StringItem index="21" value="E1036"/>
+                    <StringItem index="22" value="E1039"/>
+                    <StringItem index="23" value="E104"/>
+                    <StringItem index="24" value="E1040"/>
+                    <StringItem index="25" value="E1041"/>
+                    <StringItem index="26" value="E1042"/>
+                    <StringItem index="27" value="E1043"/>
+                    <StringItem index="28" value="E1049"/>
+                    <StringItem index="29" value="E105"/>
+                    <StringItem index="30" value="E1051"/>
+                    <StringItem index="31" value="E1052"/>
+                    <StringItem index="32" value="E1053"/>
+                    <StringItem index="33" value="E106"/>
+                    <StringItem index="34" value="E1061"/>
+                    <StringItem index="35" value="E1062"/>
+                    <StringItem index="36" value="E1063"/>
+                    <StringItem index="37" value="E1064"/>
+                    <StringItem index="38" value="E1065"/>
+                    <StringItem index="39" value="E1069"/>
+                    <StringItem index="40" value="E107"/>
+                    <StringItem index="41" value="E1071"/>
+                    <StringItem index="42" value="E1073"/>
+                    <StringItem index="43" value="E108"/>
+                    <StringItem index="44" value="E109"/>
+                    <StringItem index="45" value="E11"/>
+                    <StringItem index="46" value="E110"/>
+                    <StringItem index="47" value="E1101"/>
+                    <StringItem index="48" value="E1102"/>
+                    <StringItem index="49" value="E111"/>
+                    <StringItem index="50" value="E1111"/>
+                    <StringItem index="51" value="E1112"/>
+                    <StringItem index="52" value="E1113"/>
+                    <StringItem index="53" value="E1114"/>
+                    <StringItem index="54" value="E1115"/>
+                    <StringItem index="55" value="E1116"/>
+                    <StringItem index="56" value="E112"/>
+                    <StringItem index="57" value="E1121"/>
+                    <StringItem index="58" value="E1122"/>
+                    <StringItem index="59" value="E1129"/>
+                    <StringItem index="60" value="E113"/>
+                    <StringItem index="61" value="E1131"/>
+                    <StringItem index="62" value="E1132"/>
+                    <StringItem index="63" value="E1133"/>
+                    <StringItem index="64" value="E1134"/>
+                    <StringItem index="65" value="E1135"/>
+                    <StringItem index="66" value="E1136"/>
+                    <StringItem index="67" value="E1139"/>
+                    <StringItem index="68" value="E114"/>
+                    <StringItem index="69" value="E1140"/>
+                    <StringItem index="70" value="E1141"/>
+                    <StringItem index="71" value="E1142"/>
+                    <StringItem index="72" value="E1143"/>
+                    <StringItem index="73" value="E1149"/>
+                    <StringItem index="74" value="E115"/>
+                    <StringItem index="75" value="E1151"/>
+                    <StringItem index="76" value="E1152"/>
+                    <StringItem index="77" value="E1153"/>
+                    <StringItem index="78" value="E116"/>
+                    <StringItem index="79" value="E1161"/>
+                    <StringItem index="80" value="E1162"/>
+                    <StringItem index="81" value="E1163"/>
+                    <StringItem index="82" value="E1164"/>
+                    <StringItem index="83" value="E1165"/>
+                    <StringItem index="84" value="E1169"/>
+                    <StringItem index="85" value="E117"/>
+                    <StringItem index="86" value="E1171"/>
+                    <StringItem index="87" value="E1172"/>
+                    <StringItem index="88" value="E1173"/>
+                    <StringItem index="89" value="E118"/>
+                    <StringItem index="90" value="E119"/>
+                    <StringItem index="91" value="E13"/>
+                    <StringItem index="92" value="E130"/>
+                    <StringItem index="93" value="E1301"/>
+                    <StringItem index="94" value="E1302"/>
+                    <StringItem index="95" value="E131"/>
+                    <StringItem index="96" value="E1311"/>
+                    <StringItem index="97" value="E1312"/>
+                    <StringItem index="98" value="E1313"/>
+                    <StringItem index="99" value="E1314"/>
+                    <StringItem index="100" value="E1315"/>
+                    <StringItem index="101" value="E1316"/>
+                    <StringItem index="102" value="E132"/>
+                    <StringItem index="103" value="E1321"/>
+                    <StringItem index="104" value="E1322"/>
+                    <StringItem index="105" value="E1329"/>
+                    <StringItem index="106" value="E133"/>
+                    <StringItem index="107" value="E1331"/>
+                    <StringItem index="108" value="E1332"/>
+                    <StringItem index="109" value="E1333"/>
+                    <StringItem index="110" value="E1334"/>
+                    <StringItem index="111" value="E1335"/>
+                    <StringItem index="112" value="E1336"/>
+                    <StringItem index="113" value="E1339"/>
+                    <StringItem index="114" value="E134"/>
+                    <StringItem index="115" value="E1340"/>
+                    <StringItem index="116" value="E1341"/>
+                    <StringItem index="117" value="E1342"/>
+                    <StringItem index="118" value="E1343"/>
+                    <StringItem index="119" value="E1349"/>
+                    <StringItem index="120" value="E135"/>
+                    <StringItem index="121" value="E1351"/>
+                    <StringItem index="122" value="E1352"/>
+                    <StringItem index="123" value="E1353"/>
+                    <StringItem index="124" value="E136"/>
+                    <StringItem index="125" value="E1361"/>
+                    <StringItem index="126" value="E1362"/>
+                    <StringItem index="127" value="E1363"/>
+                    <StringItem index="128" value="E1364"/>
+                    <StringItem index="129" value="E1365"/>
+                    <StringItem index="130" value="E1369"/>
+                    <StringItem index="131" value="E137"/>
+                    <StringItem index="132" value="E1371"/>
+                    <StringItem index="133" value="E1372"/>
+                    <StringItem index="134" value="E1373"/>
+                    <StringItem index="135" value="E138"/>
+                    <StringItem index="136" value="E139"/>
+                    <StringItem index="137" value="E14"/>
+                    <StringItem index="138" value="E140"/>
+                    <StringItem index="139" value="E1401"/>
+                    <StringItem index="140" value="E1402"/>
+                    <StringItem index="141" value="E141"/>
+                    <StringItem index="142" value="E1411"/>
+                    <StringItem index="143" value="E1412"/>
+                    <StringItem index="144" value="E1413"/>
+                    <StringItem index="145" value="E1414"/>
+                    <StringItem index="146" value="E1415"/>
+                    <StringItem index="147" value="E1416"/>
+                    <StringItem index="148" value="E142"/>
+                    <StringItem index="149" value="E1421"/>
+                    <StringItem index="150" value="E1422"/>
+                    <StringItem index="151" value="E1429"/>
+                    <StringItem index="152" value="E143"/>
+                    <StringItem index="153" value="E1431"/>
+                    <StringItem index="154" value="E1432"/>
+                    <StringItem index="155" value="E1433"/>
+                    <StringItem index="156" value="E1434"/>
+                    <StringItem index="157" value="E1435"/>
+                    <StringItem index="158" value="E1436"/>
+                    <StringItem index="159" value="E1439"/>
+                    <StringItem index="160" value="E144"/>
+                    <StringItem index="161" value="E1440"/>
+                    <StringItem index="162" value="E1441"/>
+                    <StringItem index="163" value="E1442"/>
+                    <StringItem index="164" value="E1443"/>
+                    <StringItem index="165" value="E1449"/>
+                    <StringItem index="166" value="E145"/>
+                    <StringItem index="167" value="E1451"/>
+                    <StringItem index="168" value="E1452"/>
+                    <StringItem index="169" value="E1453"/>
+                    <StringItem index="170" value="E146"/>
+                    <StringItem index="171" value="E1461"/>
+                    <StringItem index="172" value="E1462"/>
+                    <StringItem index="173" value="E1463"/>
+                    <StringItem index="174" value="E1464"/>
+                    <StringItem index="175" value="E1465"/>
+                    <StringItem index="176" value="E1469"/>
+                    <StringItem index="177" value="E147"/>
+                    <StringItem index="178" value="E1471"/>
+                    <StringItem index="179" value="E1472"/>
+                    <StringItem index="180" value="E1473"/>
+                    <StringItem index="181" value="E148"/>
+                    <StringItem index="182" value="E149"/>
+                    <StringItem index="183" value="E23"/>
+                    <StringItem index="184" value="E230"/>
+                    <StringItem index="185" value="E231"/>
+                    <StringItem index="186" value="E232"/>
+                    <StringItem index="187" value="E233"/>
+                    <StringItem index="188" value="E236"/>
+                    <StringItem index="189" value="E237"/>
+                    <StringItem index="190" value="N25"/>
+                    <StringItem index="191" value="N250"/>
+                    <StringItem index="192" value="N251"/>
+                    <StringItem index="193" value="N258"/>
+                    <StringItem index="194" value="N259"/>
+                    <StringItem index="195" value="O24"/>
+                    <StringItem index="196" value="O240"/>
+                    <StringItem index="197" value="O241"/>
+                    <StringItem index="198" value="O242"/>
+                    <StringItem index="199" value="O243"/>
+                    <StringItem index="200" value="O244"/>
+                    <StringItem index="201" value="O245"/>
+                    <StringItem index="202" value="O249"/>
+                    <StringItem index="203" value="P70 "/>
+                    <StringItem index="204" value="P700"/>
+                    <StringItem index="205" value="P701"/>
+                    <StringItem index="206" value="P702"/>
+                    <StringItem index="207" value="P703"/>
+                    <StringItem index="208" value="P704"/>
+                    <StringItem index="209" value="P708"/>
+                    <StringItem index="210" value="P709"/>
+                    <StringItem index="211" value="Z13 "/>
+                    <StringItem index="212" value="Z130"/>
+                    <StringItem index="213" value="Z131"/>
+                    <StringItem index="214" value="Z132"/>
+                    <StringItem index="215" value="Z133"/>
+                    <StringItem index="216" value="Z134"/>
+                    <StringItem index="217" value="Z135"/>
+                    <StringItem index="218" value="Z136"/>
+                    <StringItem index="219" value="Z137"/>
+                    <StringItem index="220" value="Z83"/>
+                    <StringItem index="221" value="Z830"/>
+                    <StringItem index="222" value="Z831"/>
+                    <StringItem index="223" value="Z832"/>
+                    <StringItem index="224" value="Z833"/>
+                    <StringItem index="225" value="Z834"/>
+                    <StringItem index="226" value="Z835"/>
+                    <StringItem index="227" value="Z836"/>
+                    <StringItem index="228" value="Z837"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnProcessPatientSummary">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Step 2: Process Patient Summary"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProcessPatientSummaryActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnGenerateGraphData">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Step 3. Generate Graph Data"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGenerateGraphDataActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Diabetec MBS codes"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnDemo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="1. Fill up patient table"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDemoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnFilUpAdmissionDetails">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2. Fill up admission details"/>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFilUpAdmissionDetailsActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Patient List">
+                <Property name="tabTitle" type="java.lang.String" value="Patient List"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tableMember">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="7" rowCount="0">
+                    <Column editable="false" title="Member" type="java.lang.String"/>
+                    <Column editable="false" title="Membership" type="java.lang.String"/>
+                    <Column editable="false" title="Total Admission" type="java.lang.Integer"/>
+                    <Column editable="false" title="LoS" type="java.lang.Integer"/>
+                    <Column editable="false" title="Hosp Ben" type="java.lang.Double"/>
+                    <Column editable="false" title="Med Ben" type="java.lang.Double"/>
+                    <Column editable="false" title="Pros Ben" type="java.lang.Double"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tableMemberMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Patient Summary">
+                <Property name="tabTitle" type="java.lang.String" value="Patient Summary"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane3" alignment="0" pref="873" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblPatientSummary" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblPatientSummary" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane3" pref="345" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tablePatientSummary">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="12" rowCount="0">
+                        <Column editable="false" title="Claim #" type="java.lang.String"/>
+                        <Column editable="false" title="Admission Date" type="java.lang.String"/>
+                        <Column editable="false" title="LoS" type="java.lang.Integer"/>
+                        <Column editable="false" title="Prin. MBS" type="java.lang.String"/>
+                        <Column editable="false" title="MBS 1" type="java.lang.String"/>
+                        <Column editable="false" title="MBS 2" type="java.lang.String"/>
+                        <Column editable="false" title="MBS 3" type="java.lang.String"/>
+                        <Column editable="false" title="MBS extra" type="java.lang.String"/>
+                        <Column editable="false" title="DRG" type="java.lang.String"/>
+                        <Column editable="false" title="Hos. Ben." type="java.lang.Double"/>
+                        <Column editable="false" title="Med. Ben." type="java.lang.Double"/>
+                        <Column editable="false" title="Pros. Ben." type="java.lang.Double"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lblPatientSummary">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Patient Summary"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
